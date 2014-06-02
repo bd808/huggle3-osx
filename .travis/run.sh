@@ -3,4 +3,9 @@
 set -e
 set -x
 
-open huggle3-qt-lx/huggle/huggle_release/huggle.app
+BINARY=huggle3-qt-lx/huggle/huggle_release/huggle
+
+ls -l $BINARY
+otool -L $BINARY
+md5sum $BINARY
+sha1sum $BINARY

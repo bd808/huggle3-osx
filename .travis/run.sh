@@ -3,4 +3,4 @@
 set -e
 set -x
 
-open huggle3-qt-lx/huggle/huggle.app
+open huggle3-qt-lx/huggle/huggle_release/huggle.app

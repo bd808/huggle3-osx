@@ -10,5 +10,6 @@ brew install cmake
 
 git clone http://github.com/huggle/huggle3-qt-lx
 cd huggle3-qt-lx/huggle
-./configure --no-breakpad
+./configure --no-breakpad --qt4
+cd huggle_release
 make

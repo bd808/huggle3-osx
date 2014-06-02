@@ -1,0 +1,8 @@
+language: objective-c
+before_install:
+  - brew update
+install:
+  - ./.travis/install.sh
+script:
+  - ./.travis/run.sh
+

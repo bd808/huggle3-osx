@@ -6,7 +6,6 @@ set -e
 set -x
 
 brew install qt
-brew install cmake
 
 # not needed for build, just for tests later
 brew install coreutils
